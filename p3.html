@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>triangle</title>
+</head>
+<body>
+    <script>
+        
+        for(let i=5; i>0 ; i--){
+            for(let j=i; j>0; j--){
+                document.write(0)
+            }
+            for( let k=1;k<=6-i ; k++){
+                document.write("*")
+            }
+            for(let l=1 ; l<=5-i ; l++){
+                if(l==i){
+                    continue
+                }
+                else{
+                    document.write("*")
+                }
+            }
+            document.write("<br>")
+            
+        }
+    </script>
+    
+
+    
+</body>
+</html>
